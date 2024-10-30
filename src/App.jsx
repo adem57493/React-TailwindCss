@@ -149,13 +149,13 @@ const App = () => {
           {content}
           <Articles
             title="I would like to read..."
-            fallbackText="Select the places you would like to visit below."
+            fallbackText="Select the articles you would like to read below."
             articles={pickedArticles}
             onSelectArticle={handleStartRemoveArticle}
           />
           <Articles
             title="All articles"
-            fallbackText="Sorting places by distance"
+            fallbackText="Sorting articles by length"
             articles={availablePlaces}
             onSelectArticle={handleSelectArticle}
           />
